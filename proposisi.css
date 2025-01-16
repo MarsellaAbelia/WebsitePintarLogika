@@ -1,0 +1,164 @@
+
+.proposisi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.proposisi img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.proposisi h1 {
+    font-size: 2.5em;
+    font-family: Arial, sans-serif;
+    color: #080352;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.proposisi .content {
+    font-size: 1.2em;
+    color: #080352;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+/* fungsi */
+.proposisi2 {
+    display: grid; /* Gunakan grid untuk tata letak */
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom untuk baris pertama */
+    gap: 50px; /* Jarak antar elemen */
+    justify-content: center; /* Pusatkan grid secara horizontal */
+    align-items: center; /* Pusatkan elemen secara vertikal */
+    width: 97%; /* Batasi lebar kontainer */
+    margin: 0 auto; /* Pusatkan kontainer di layar */
+    padding: 20px;
+}
+
+.kolom {
+    background-color: #cfe4e7; /* Warna latar */
+    border: 2px solid #ccc; /* Border konsisten (2px untuk memastikan ukuran seragam) */
+    border-radius: 8px; /* Sudut melengkung */
+    padding: 15px; /* Ruang dalam elemen */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan */
+    text-align: justify; /* Rata kanan-kiri */
+    display:flex; /* Menggunakan flexbox untuk mengatur konten */
+    flex-direction: column; /* Agar konten di dalam kolom ditata secara vertikal */
+}
+
+/* Memastikan semua elemen di dalam grid memiliki border yang sama */
+.proposisi2 div {
+    border: 2px solid #ccc; /* Konsistensi border (2px) */
+    border-radius: 8px; /* Border radius tetap seragam */
+    height: 95%;
+    padding: 10px; /* Ruang dalam untuk konten */
+}
+
+/* Memastikan bahwa border tetap konsisten di kolom tertentu */
+.proposisi2 div:nth-child(4),
+.proposisi2 div:nth-child(5) {
+    grid-column: span 1; /* Kolom tunggal */
+}
+
+/* Memisahkan h3 dari border kolom dengan ukuran border yang konsisten */
+.kolom h3 {
+    margin: 0; /* Menghapus margin default pada h3 */
+    padding: 0; /* Menghapus padding default pada h3 */
+    font-family: Arial, sans-serif;
+    border-bottom: 2px solid #f5ac71; /* Membuat garis bawah dengan ukuran yang sama */
+    margin-bottom: 10px; /* Memberikan ruang setelah judul */
+}
+
+
+.kolom p {
+    margin: 0; /* Menghapus margin default pada p */
+    font-family: Arial, sans-serif;
+    padding-top: 10px; /* Memberikan ruang di atas konten paragraf */
+}
+
+.kolom b{
+    color: #080352;
+}
+
+
+/* proposisi 1 */
+#proposisi1 {
+
+    padding: 20px 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.column {
+    background-color: #cfe4e7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.column h2 {
+    font-size: 1.8em;
+    color: #080352;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.column p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    font-family: Arial, sans-serif;
+    color: #080352;
+    margin-bottom: 20px;
+}
+
+.column p br {
+    line-height: 2;
+}
+
+.column p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.column p span {
+    font-weight: bold;
+    color: #080352;
+}
+footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #003d66;
+    background-color: #f8f4ee;
+    padding: 5px 0;
+    font-size: 16px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}

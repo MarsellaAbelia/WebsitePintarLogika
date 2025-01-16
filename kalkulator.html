@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logika Matematika</title>
+    <link rel="stylesheet" href="../css/navbar footer.css">
+    <link rel="stylesheet" href="../css/kalkulator.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo"><img src="../img/logo.png" alt="Logo"></a>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="proposisi.html">Proposisi</a>
+            <div class="dropdown">
+                <a href="operatorlogika.html" class="dropbtn">Operator Logika</a>
+                <div class="dropdown-content">
+                    <a href="konjungsi.html">Konjungsi</a>
+                    <a href="disjungsi.html">Disjungsi</a>
+                    <a href="negasi.html">Negasi</a>
+                    <a href="implikasi.html">Implikasi</a>
+                    <a href="biimplikasi.html">Biimplikasi</a>
+                    <a href="tautologi.html">Tautologi</a>
+                    <a href="kontradiksi.html">Kontradiksi</a>
+                    <a href="kontingensi.html">Kontingensi</a>
+                </div>
+            </div>
+            <a href="kalkulator.html">Kalkulator</a>
+            <a href="vidiopembelajaran.html">Vidio Pembelajaran</a>
+            <a href="quizbase.html">Quiz</a>
+        </div>
+    </nav>
+
+    <!-- isi -->
+    <section id="kalkulator">
+        <div class="kalkulator">
+            <h1>Kalkulator Operasi Logika</h1>
+            <label for="p">Masukkan nilai p :</label>
+            <input type="number" id="p" placeholder="Masukkan angka lebih dari 1">
+
+            <label for="q">Masukkan nilai q :</label>
+            <input type="number" id="q" placeholder="Masukkan angka kurang dari 1">
+
+            <button onclick="performLogic()">Hitung</button>
+
+            <div class="results" id="results"></div>
+        </div>
+        <div class="keterangan">
+
+            <h3>PANDUAN PEMAKAIAN</h3>
+            <p>(1).Masukkan nilai p: Ketik angka lebih dari 1 jika ingin p=Benar.<br> (2).Ketik angka kurang dari atau sama dengan 1 jika ingin p=Salah.<br> (3).Masukkan nilai q: Ketik angka kurang dari 1 jika ingin q=Benar.<br>(4). Ketik angka lebih dari atau sama dengan
+                1 jika ingin q=Salah.<br>(5). Klik tombol "Hitung": Tekan tombol untuk melihat hasil operasi logika.<br>(6). Periksa hasil: Hasil logika (Konjungsi, Disjungsi, Negasi, Implikasi, dan Biimplikasi) akan muncul di bawah tombol.</p>
+        </div>
+
+        <!-- vidio panduan -->
+         <div class="vidio">    
+            <h3>VIDIO PANDUAN</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8ViTfSGVH-8?si=1ZYcGMuwlR2ddpqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+             web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             </div>
+        <script src="../js/kalkulator.js ">
+        </script>
+    </section>
+    <!-- footer -->
+    <footer>
+        <p>&copy; Logika Matematika | Marsella Abelia & Rizki Kamelia | Projek Akhir Matematika Diskrit</p>
+    </footer>
+</body>
+
+</html>

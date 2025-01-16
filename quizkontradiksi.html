@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logika Matematika</title>
+    <link rel="stylesheet" href="../css/navbar footer.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo"><img src="../img/logo.png" alt="Logo"></a>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="proposisi.html">Proposisi</a>
+            <div class="dropdown">
+                <a href="operatorlogika.html" class="dropbtn">Operator Logika</a>
+                <div class="dropdown-content">
+                    <a href="konjungsi.html">Konjungsi</a>
+                    <a href="disjungsi.html">Disjungsi</a>
+                    <a href="negasi.html">Negasi</a>
+                    <a href="implikasi.html">Implikasi</a>
+                    <a href="biimplikasi.html">Biimplikasi</a>
+                    <a href="tautologi.html">Tautologi</a>
+                    <a href="kontradiksi.html">Kontradiksi</a>
+                    <a href="kontingensi.html">Kontingensi</a>
+                </div>
+            </div>
+            <a href="kalkulator.html">Kalkulator</a>
+            <a href="vidiopembelajaran.html">Vidio Pembelajaran</a>
+            <a href="quizbase.html">Quiz</a>
+        </div>
+    </nav>
+
+    <!-- isi -->
+    <section id="latihan">
+        <div class="quiz-container">
+            <h1>Quiz Logika Matematika (kontradiksi)</h1>
+    <form id="quiz-form-negation">
+      <!-- Question 1 -->
+      <div class="question" data-correct="a">
+        <p>Manakah pernyataan berikut yang merupakan kontradiksi?</p>
+        <div class="answer-container">
+          <input type="radio" id="q1a" name="q1" value="a">
+          <label for="q1a">a) P ∧ ~P </label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q1b" name="q1" value="b">
+          <label for="q1b">b) P ∨ ~P</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q1c" name="q1" value="c">
+          <label for="q1c">c) P ∨ Q</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q1d" name="q1" value="d">
+          <label for="q1d">d) ~(P ∧ ~P)</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Kontradiksi adalah pernyataan logika yang selalu salah. 
+        P ∧ ~P (hukum nonkontradiksi) selalu salah, karena P dan ~P tidak dapat benar secara bersamaan.</p>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question" data-correct="d">
+        <p>2. Jika P dan Q adalah proposisi, manakah pernyataan berikut yang selalu salah?</p>
+        <div class="answer-container">
+          <input type="radio" id="q2a" name="q2" value="a">
+          <label for="q2a">a) P ∨ Q</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q2b" name="q2" value="b">
+          <label for="q2b">b) P ∧ ~P</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q2c" name="q2" value="c">
+          <label for="q2c">c) P ∨ ~P</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q2d" name="q2" value="d">
+          <label for="q2d">d) ~(P ∨ Q) ∧ (P ∨ Q)</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan ~(P ∨ Q) ∧ (P ∨ Q) adalah kontradiksi karena 
+        P ∨ Q dan negasinya tidak dapat benar secara bersamaan.</p>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="question" data-correct="b">
+        <p>3. Pernyataan P ∧ Q ∧ ~Q adalah</p>
+        <div class="answer-container">
+          <input type="radio" id="q3a" name="q3" value="a">
+          <label for="q3a">a) Tautologi </label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q3b" name="q3" value="b">
+          <label for="q3b">b) Kontradiksi</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q3c" name="q3" value="c">
+          <label for="q3c">c) Kontingensi</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q3d" name="q3" value="d">
+          <label for="q3d">d) Tidak dapat ditentukan</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan Q ∧ ~Q adalah kontradiksi karena Q dan 
+      ¬Q tidak pernah benar bersamaan. Maka, keseluruhan pernyataan P ∧ Q ∧ ~Q juga kontradiksi.</p>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="question" data-correct="d">
+        <p>4. Manakah pernyataan berikut yang bukan kontradiksi?</p>
+        <div class="answer-container">
+          <input type="radio" id="q4a" name="q4" value="a">
+          <label for="q4a">a) P ∧ ~P</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q4b" name="q4" value="b">
+          <label for="q4b">b) ~(P ∨ Q) ∧ (P ∨ Q)</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q4c" name="q4" value="c">
+          <label for="q4c">c) P ∧ Q ∧ ~Q</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q4d" name="q4" value="d">
+          <label for="q4d">d) P ∨ Q</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: P ∨ Q bukan kontradiksi karena bergantung pada nilai P dan 
+         Q; bisa bernilai benar atau salah.</p>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="question" data-correct="a">
+        <p>5. Manakah bentuk logika yang setara dengan kontradiksi?</p>
+        <div class="answer-container">
+          <input type="radio" id="q5a" name="q5" value="a">
+          <label for="q5a">a) ~(P ∨ ~P)</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q5b" name="q5" value="b">
+          <label for="q5b">b) P ∨ ~P</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q5c" name="q5" value="c">
+          <label for="q5c">c) P ∧ Q</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q5d" name="q5" value="d">
+          <label for="q5d">d) ~P ∧ ~Q</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: P∨¬P adalah tautologi, jadi negasinya 
+        ~(P ∨ ~P) adalah kontradiksi karena selalu salah.</p>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="question" data-correct="a">
+        <p>6. Jika seseorang berkata, "Saya selalu jujur, tetapi saat ini saya sedang berbohong," maka pernyataan ini adalah</p>
+        <div class="answer-container">
+          <input type="radio" id="q6a" name="q6" value="a">
+          <label for="q6a">a) Kontradiksi</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q6b" name="q6" value="b">
+          <label for="q6b">b) Tautologi</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q6c" name="q6" value="c">
+          <label for="q6c">c) Kontingensi</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q6d" name="q6" value="d">
+          <label for="q6d">d)  Benar</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan tersebut adalah kontradiksi karena tidak mungkin seseorang selalu jujur tetapi juga sedang berbohong. </p>
+      </div>
+
+      <!-- Question 7 -->
+      <div class="question" data-correct="c">
+        <p>7. Doni berkata, "Saya sedang belajar, tetapi saya juga tidak sedang belajar." Apakah pernyataan Doni ini merupakan</p>
+        <div class="answer-container">
+          <input type="radio" id="q7a" name="q7" value="a">
+          <label for="q7a">a) Pernyataan benar</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q7b" name="q7" value="b">
+          <label for="q7b">b) Pernyataan salah</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q7c" name="q7" value="c">
+          <label for="q7c">c) Kontradiksi</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q7d" name="q7" value="d">
+          <label for="q7d">d) Tidak dapat ditentukan</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan Doni adalah kontradiksi karena ia menyatakan dua hal yang bertentangan, yaitu sedang belajar dan tidak sedang belajar. </p>
+      </div>
+
+      <!-- Question 8 -->
+      <div class="question" data-correct="d">
+        <p>8. Manakah dari pernyataan berikut yang selalu salah, terlepas dari nilai P dan Q?</p>
+        <div class="answer-container">
+          <input type="radio" id="q8a" name="q8" value="a">
+          <label for="q8a">a) P ∨ Q</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q8b" name="q8" value="b">
+          <label for="q8b">b) P ∧ Q</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q8c" name="q8" value="c">
+          <label for="q8c">c) P ∨ ~Q</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q8d" name="q8" value="d">
+          <label for="q8d">d) P ∧ ~P</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan P ∧ ~P adalah kontradiksi yang selalu salah karena 
+         P dan ~P tidak dapat benar bersamaan.</p>
+      </div>
+
+      <!-- Question 9 -->
+      <div class="question" data-correct="b">
+        <p>9. Jika P adalah proposisi, maka ~(P ∧ Q) ∧ (P ∧ Q) adalah</p>
+        <div class="answer-container">
+          <input type="radio" id="q9a" name="q9" value="a">
+          <label for="q9a">a) Tautologi</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q9b" name="q9" value="b">
+          <label for="q9b">b)  Kontradiksi</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q9c" name="q9" value="c">
+          <label for="q9c">c) Kontingensi</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q9d" name="q9" value="d">
+          <label for="q9d">d) Tidak dapat ditentukan</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan P ∧ Q dan negasinya ~(P ∧ Q) tidak bisa benar bersamaan. Maka, gabungan kedua pernyataan ini adalah kontradiksi.</p>
+      </div>
+
+      <!-- Question 10 -->
+      <div class="question" data-correct="c">
+        <p>10. Ani berkata, "Pintu ini tertutup rapat, tetapi aku juga melihatnya terbuka." Pernyataan Ani adalah</p>
+        <div class="answer-container">
+          <input type="radio" id="q10a" name="q10" value="a">
+          <label for="q10a">a) Benar</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q10b" name="q10" value="b">
+          <label for="q10b">b) Salah</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q10c" name="q10" value="c">
+          <label for="q10c">c) Kontradiksi</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q10d" name="q10" value="d">
+          <label for="q10d">d) Tautologi</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan ini adalah kontradiksi karena pintu tidak mungkin tertutup rapat dan terbuka pada waktu yang sama. </p>
+      </div>
+    
+
+  <button type="button" onclick="submitQuiz()">Submit</button>
+</form>
+<p class="score hidden"></p>
+
+<script src="../js/quizkonjungsi.js"></script>
+</div>
+</section>
+    
+</body>
+
+</html>

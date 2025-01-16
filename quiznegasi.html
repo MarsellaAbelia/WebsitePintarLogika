@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logika Matematika</title>
+    <link rel="stylesheet" href="../css/navbar footer.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo"><img src="../img/logo.png" alt="Logo"></a>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="proposisi.html">Proposisi</a>
+            <div class="dropdown">
+                <a href="operatorlogika.html" class="dropbtn">Operator Logika</a>
+                <div class="dropdown-content">
+                    <a href="konjungsi.html">Konjungsi</a>
+                    <a href="disjungsi.html">Disjungsi</a>
+                    <a href="negasi.html">Negasi</a>
+                    <a href="implikasi.html">Implikasi</a>
+                    <a href="biimplikasi.html">Biimplikasi</a>
+                    <a href="tautologi.html">Tautologi</a>
+                    <a href="kontradiksi.html">Kontradiksi</a>
+                    <a href="kontingensi.html">Kontingensi</a>
+                </div>
+            </div>
+            <a href="kalkulator.html">Kalkulator</a>
+            <a href="vidiopembelajaran.html">Vidio Pembelajaran</a>
+            <a href="quizbase.html">Quiz</a>
+        </div>
+    </nav>
+
+    <!-- isi -->
+    <section id="latihan">
+        <div class="quiz-container">
+            <h1>Quiz Logika Matematika (negasi)</h1>
+    <form id="quiz-form-negation">
+        <div class="question" data-correct="d">
+          <p>1. Diketahui:<br>
+              P: "Hari ini cerah"<br>
+              Q: "Saya membawa payung"<br>
+              Bentuk negasi dari "P dan Q" adalah:</p>
+          <div class="answer-container">
+            <input type="radio" id="q1a" name="q1" value="a">
+            <label for="q1a">a) Hari ini cerah dan saya membawa payung.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q1b" name="q1" value="b">
+            <label for="q1b">b) Hari ini cerah atau saya tidak membawa payung.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q1c" name="q1" value="c">
+            <label for="q1c">c) Hari ini tidak cerah atau saya membawa payung.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q1d" name="q1" value="d">
+            <label for="q1d">d) Hari ini tidak cerah atau saya tidak membawa payung.</label>
+          </div>
+          <p class="explanation hidden">Penjelasan: Negasi dari "P dan Q" adalah "Tidak P atau tidak Q" (¬P ∨ ¬Q).</p>
+        </div>
+      
+        <div class="question" data-correct="a">
+          <p>2. Jika P bernilai salah dan Q bernilai benar, maka nilai kebenaran dari negasi "P atau Q" (¬(P ∨ Q)) adalah:</p>
+          <div class="answer-container">
+            <input type="radio" id="q2a" name="q2" value="a">
+            <label for="q2a">a) Salah</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q2b" name="q2" value="b">
+            <label for="q2b">b) Benar</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q2c" name="q2" value="c">
+            <label for="q2c">c) Tidak tentu</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q2d" name="q2" value="d">
+            <label for="q2d">d) Semua jawaban salah</label>
+          </div>
+          <p class="explanation hidden">Penjelasan: Jika P salah dan Q benar, maka P ∨ Q bernilai benar, sehingga ¬(P ∨ Q) bernilai salah.</p>
+        </div>
+      
+        <div class="question" data-correct="b">
+          <p>3. Manakah pernyataan berikut yang merupakan negasi?</p>
+          <div class="answer-container">
+            <input type="radio" id="q3a" name="q3" value="a">
+            <label for="q3a">a) Saya belajar dan saya lulus.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q3b" name="q3" value="b">
+            <label for="q3b">b) Saya tidak belajar atau saya tidak lulus.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q3c" name="q3" value="c">
+            <label for="q3c">c) Saya belajar atau saya lulus.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q3d" name="q3" value="d">
+            <label for="q3d">d) Jika saya belajar, maka saya lulus.</label>
+          </div>
+          <p class="explanation hidden">Penjelasan: Negasi dari "Saya belajar dan saya lulus" adalah "Saya tidak belajar atau saya tidak lulus".</p>
+        </div>
+      
+        <div class="question" data-correct="a">
+          <p>4. Negasi dari pernyataan "Jika P, maka Q" adalah:</p>
+          <div class="answer-container">
+            <input type="radio" id="q4a" name="q4" value="a">
+            <label for="q4a">a) P dan tidak Q.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q4b" name="q4" value="b">
+            <label for="q4b">b) Tidak P dan Q.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q4c" name="q4" value="c">
+            <label for="q4c">c) Tidak P atau Q.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q4d" name="q4" value="d">
+            <label for="q4d">d) Tidak P dan tidak Q.</label>
+          </div>
+          <p class="explanation hidden">Penjelasan: Negasi dari "Jika P, maka Q" (P → Q) adalah "P dan tidak Q" (P ∧ ¬Q).</p>
+        </div>
+      
+        <div class="question" data-correct="c">
+          <p>5. Pernyataan negasi dalam logika matematika disimbolkan dengan:</p>
+          <div class="answer-container">
+            <input type="radio" id="q5a" name="q5" value="a">
+            <label for="q5a">a) ∧</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q5b" name="q5" value="b">
+            <label for="q5b">b) ∨</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q5c" name="q5" value="c">
+            <label for="q5c">c) ¬</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q5d" name="q5" value="d">
+            <label for="q5d">d) →</label>
+          </div>
+          <p class="explanation hidden">Penjelasan: Simbol ¬ digunakan untuk menyatakan negasi (tidak).</p>
+        </div>
+      
+        <div class="question" data-correct="b">
+          <p>6. Negasi dari "P ∨ Q" adalah:</p>
+          <div class="answer-container">
+            <input type="radio" id="q6a" name="q6" value="a">
+            <label for="q6a">a) P ∧ Q.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q6b" name="q6" value="b">
+            <label for="q6b">b) ¬P ∧ ¬Q.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q6c" name="q6" value="c">
+            <label for="q6c">c) ¬P ∨ ¬Q.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q6d" name="q6" value="d">
+            <label for="q6d">d) P → Q.</label>
+          </div>
+          <p class="explanation hidden">Penjelasan: Negasi dari "P ∨ Q" adalah "¬P ∧ ¬Q".</p>
+        </div>
+      
+        <div class="question" data-correct="a">
+          <p>7. Jika P adalah "Angka 6 adalah bilangan genap." dan Q adalah "Angka 7 adalah bilangan ganjil.", maka negasi dari "P ∧ Q" adalah:</p>
+          <div class="answer-container">
+            <input type="radio" id="q7a" name="q7" value="a">
+            <label for="q7a">a) Angka 6 bukan bilangan genap atau angka 7 bukan bilangan ganjil.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q7b" name="q7" value="b">
+            <label for="q7b">b) Jika angka 6 bukan bilangan genap, maka angka 7 bukan bilangan ganjil.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q7c" name="q7" value="c">
+            <label for="q7c">c) Angka 6 bukan bilangan genap atau angka 7 adalah bilangan ganjil.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q7d" name="q7" value="d">
+            <label for="q7d">d) Angka 6 adalah bilangan ganjil tetapi angka 7 adalah bilangan ganjil.</label>
+          </div>
+          <p class="explanation hidden">Penjelasan: Negasi dari "P ∧ Q" adalah "¬P ∨ ¬Q".</p>
+        </div>
+      
+        <div class="question" data-correct="a">
+          <p>8. Negasi dari "P → Q" adalah:</p>
+          <div class="answer-container">
+            <input type="radio" id="q8a" name="q8" value="a">
+            <label for="q8a">a) P ∧ ¬Q.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q8b" name="q8" value="b">
+            <label for="q8b">b) ¬P → Q.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q8c" name="q8" value="c">
+            <label for="q8c">c) P ∨ ¬Q.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q8d" name="q8" value="d">
+            <label for="q8d">d) P ∧ Q.</label>
+          </div>
+          <p class="explanation hidden">Penjelasan: Negasi dari "P → Q" adalah "P ∧ ¬Q".</p>
+        </div>
+      
+        <div class="question" data-correct="c">
+          <p>9. Negasi dari "Jika saya tidak tidur, maka saya akan merasa lelah." adalah:</p>
+          <div class="answer-container">
+            <input type="radio" id="q9a" name="q9" value="a">
+            <label for="q9a">a) Saya tidak tidur tetapi tidak merasa lelah.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q9b" name="q9" value="b">
+            <label for="q9b">b) Saya tidur dan saya merasa lelah.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q9c" name="q9" value="c">
+            <label for="q9c">c) Saya tidak tidur tetapi tidak merasa lelah.</label>
+          </div>
+          <div class="answer-container">
+            <input type="radio" id="q9d" name="q9" value="d">
+            <label for="q9d">d) Jika saya tidur, maka saya merasa lelah.</label>
+          </div>
+          <p class="explanation hidden">Penjelasan: Negasi dari "Jika saya tidak tidur, maka saya akan merasa lelah" adalah "Saya tidak tidur tetapi tidak merasa lelah".</p>
+        </div>
+        
+        <div class="question" data-correct="d">
+            <p>10. Jika P adalah "Saya akan pergi ke kantor" dan Q adalah "Saya membawa jas hujan", maka negasi dari "P → Q" adalah:</p>
+            <div class="answer-container">
+              <input type="radio" id="q10a" name="q10" value="a">
+              <label for="q10a">a) Saya pergi ke kantor dan saya tidak membawa jas hujan.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q10b" name="q10" value="b">
+              <label for="q10b">b) Saya tidak pergi ke kantor atau saya membawa jas hujan.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q10c" name="q10" value="c">
+              <label for="q10c">c) Saya tidak pergi ke kantor dan saya tidak membawa jas hujan.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q10d" name="q10" value="d">
+              <label for="q10d">d) Saya pergi ke kantor dan saya tidak membawa jas hujan.</label>
+            </div>
+            <p class="explanation hidden">Penjelasan: Negasi dari "P → Q" adalah "P dan tidak Q" (P ∧ ¬Q).</p>
+          </div>
+
+        <button type="button" onclick="submitQuiz()">Submit</button>
+                    </form>
+                    <p class="score hidden"></p>
+            
+            <script src="../js/quizkonjungsi.js"></script>
+        </div>
+        </section>
+    
+</body>
+
+</html>

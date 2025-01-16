@@ -1,0 +1,291 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logika Matematika</title>
+        <link rel="stylesheet" href="../css/navbar footer.css">
+        <link rel="stylesheet" href="../css/quiz.css">
+    </head>
+    
+    <body>
+    
+        <!-- navbar -->
+        <nav class="navbar">
+            <a href="#" class="logo"><img src="../img/logo.png" alt="Logo"></a>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="proposisi.html">Proposisi</a>
+                <div class="dropdown">
+                    <a href="operatorlogika.html" class="dropbtn">Operator Logika</a>
+                    <div class="dropdown-content">
+                        <a href="konjungsi.html">Konjungsi</a>
+                        <a href="disjungsi.html">Disjungsi</a>
+                        <a href="negasi.html">Negasi</a>
+                        <a href="implikasi.html">Implikasi</a>
+                        <a href="biimplikasi.html">Biimplikasi</a>
+                        <a href="tautologi.html">Tautologi</a>
+                        <a href="kontradiksi.html">Kontradiksi</a>
+                        <a href="kontingensi.html">Kontingensi</a>
+                    </div>
+                </div>
+                <a href="kalkulator.html">Kalkulator</a>
+                <a href="vidiopembelajaran.html">Vidio Pembelajaran</a>
+                <a href="quizbase.html">Quiz</a>
+            </div>
+        </nav>
+    
+        <!-- isi -->
+        <section id="latihan">
+            <div class="quiz-container">
+                <h1>Quiz Logika Matematika (disjungsi)</h1>
+                    <form id="quiz-form">
+                      <div class="question" data-correct="b">
+                        <p>1. Diketahui:<br>
+                            P: "Hari ini cerah"<br>
+                            Q: "Saya membawa payung"<br>
+                            Bentuk disjungsi dari P dan Q adalah:</p>
+                        <div class="answer-container">
+                          <input type="radio" id="q1a" name="q1" value="a">
+                          <label for="q1a">a) Hari ini cerah dan saya membawa payung.</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q1b" name="q1" value="b">
+                          <label for="q1b">b) Hari ini cerah atau saya membawa payung</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q1c" name="q1" value="c">
+                          <label for="q1c">c) Jika hari ini cerah, maka saya membawa payung.</label>
+                        </div> 
+                        <div class="answer-container">
+                          <input type="radio" id="q1d" name="q1" value="d">
+                          <label for="q1d">d)  Hari ini cerah tetapi saya tidak membawa payung.</label>
+                        </div>
+                        <p class="explanation hidden">Penjelasan :Disjungsi adalah pernyataan gabungan menggunakan kata “atau” (∨). 
+                            Jadi, P ∨ Q berbunyi “Hari ini cerah atau saya membawa payung.”</p>
+                      </div>
+                
+                      <div class="question" data-correct="a">
+                        <p>2.Jika P bernilai benar dan Q bernilai salah, maka nilai kebenaran dari disjungsi P ∨ Q adalah:
+                            </p>
+                        <div class="answer-container">
+                          <input type="radio" id="q2a" name="q2" value="a">
+                          <label for="q2a">a) Benar</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q2b" name="q2" value="b">
+                          <label for="q2b">b) Salah</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q2c" name="q2" value="c">
+                          <label for="q2c">c) Tidak tentu</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q2d" name="q2" value="d">
+                          <label for="q2d">d) Semua jawaban salah</label>
+                        </div>
+                        <p class="explanation hidden">Penjelasan: Disjungsi bernilai benar jika salah satu atau kedua pernyataan 
+                            bernilai benar. Karena P benar, maka P ∨ Q bernilai benar.
+                        </p>
+                      </div>
+                
+                      <div class="question" data-correct="b">
+                        <p>3.Manakah pernyataan berikut yang merupakan disjungsi?</p>
+                        <div class="answer-container">
+                          <input type="radio" id="q3a" name="q3" value="a">
+                          <label for="q3a">a) Jika saya belajar, maka saya lulus.</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q3b" name="q3" value="b">
+                          <label for="q3b">b) Saya belajar atau saya lulus.</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q3c" name="q3" value="c">
+                          <label for="q3c">c) Saya belajar dan saya lulus.</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q3d" name="q3" value="d">
+                          <label for="q3d">d) Saya tidak belajar.</label>
+                        </div>
+                        <p class="explanation hidden">Penjelasan: Disjungsi menggabungkan dua pernyataan dengan kata “atau” (∨).
+                             Pilihan b menggunakan kata “atau”</p>
+                      </div>
+                
+                      <div class="question" data-correct="b">
+                        <p>4. Jika P ∨ Q bernilai salah, maka yang pasti benar adalah:</p>
+                        <div class="answer-container">
+                          <input type="radio" id="q4a" name="q4" value="a">
+                          <label for="q4a">a) P  benar dan Q  benar</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q4b" name="q4" value="b">
+                          <label for="q4b">b) P  salah dan Q  salah.</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q4c" name="q4" value="c">
+                          <label for="q4c">c) P  benar dan Q  salah.</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q4d" name="q4" value="d">
+                          <label for="q4d">d) P  salah dan Q  benar.</label>
+                        </div>
+                        <p class="explanation hidden">Penjelasan: Disjungsi P ∨ Q bernilai salah hanya jika kedua komponen
+                             (P dan Q) bernilai salah. </p>
+                      </div>
+                
+                      <div class="question" data-correct="c">
+                        <p>5. Pernyataan disjungsi dalam logika matematika disimbolkan dengan:</p>
+                        <div class="answer-container">
+                          <input type="radio" id="q5a" name="q5" value="a">
+                          <label for="q5a">a) ∧</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q5b" name="q5" value="b">
+                          <label for="q5b">b) →</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q5c" name="q5" value="c">
+                          <label for="q5c">c) ∨</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q5d" name="q5" value="d">
+                          <label for="q5d">d) ~</label>
+                        </div>
+                        <p class="explanation hidden">Penjelasan: Dalam logika matematika, simbol ∨ digunakan untuk 
+                            menyatakan “atau” (disjungsi).</p>
+                      </div>
+                
+                      <div class="question" data-correct="a">
+                        <p>6. Nilai kebenaran disjungsi P ∨ Q adalah benar jika dan hanya jika:</p>
+                        <div class="answer-container">
+                          <input type="radio" id="q6a" name="q6" value="a">
+                          <label for="q6a">a) Salah satu dari P  atau  Q benar.</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q6b" name="q6" value="b">
+                          <label for="q6b">b) Kedua pernyataan P  dan Q benar</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q6c" name="q6" value="c">
+                          <label for="q6c">c) Kedua pernyataan P dan  Q salah</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q6d" name="q6" value="d">
+                          <label for="q6d">d) Salah satu dari  P atau  Q salah.</label>
+                        </div>
+                        <p class="explanation hidden">Penjelasan :Disjungsi bernilai benar jika salah satu atau kedua pernyataan benar. 
+                            Jika keduanya salah, maka disjungsi bernilai salah.</p>
+                      </div>
+                
+                      <div class="question" data-correct="c">
+                        <p>7. Diberikan pernyataan:<br>
+                            P: "Angka 6 adalah bilangan genap."<br>
+                            Q: "Angka 7 adalah bilangan ganjil."<br>
+                            Pernyataan P V Q  berbunyi:
+                            
+                            </p>
+                        <div class="answer-container">
+                          <input type="radio" id="q7a" name="q7" value="a">
+                          <label for="q7a">a) Angka 6 adalah bilangan genap dan angka 7 adalah bilangan ganjil.</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q7b" name="q7" value="b">
+                          <label for="q7b">b) Jika angka 6 adalah bilangan genap, maka angka 7 adalah bilangan ganjil.</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q7c" name="q7" value="c">
+                          <label for="q7c">c) Angka 6 adalah bilangan genap atau angka 7 adalah bilangan ganjil.</label></label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q7d" name="q7" value="d">
+                          <label for="q7d">d) Angka 6 adalah bilangan ganjil tetapi angka 7 bukan bilangan ganjil.</label>
+                        </div>
+                        <p class="explanation hidden">Penjelasan: Disjungsi P ∨ Q menggabungkan dua pernyataan P dan Q dengan “atau”.</p>
+                      </div>
+                
+                      <div class="question" data-correct="b">
+                        <p>8. Disjungsi dari dua pernyataan yang keduanya salah akan menghasilkan nilai kebenaran:
+                            <br>
+                            </p>
+                        <div class="answer-container">
+                          <input type="radio" id="q8a" name="q8" value="a">
+                          <label for="q8a">a) Benar</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q8b" name="q8" value="b">
+                          <label for="q8b">b) Salah</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q8c" name="q8" value="c">
+                          <label for="q8c">c) Tidak tentu</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q8d" name="q8" value="d">
+                          <label for="q8d">d) Sama dengan salah satu pernyataan</label>
+                        </div>
+                        <p class="explanation hidden">Penjelasan: Jika P salah dan Q salah, maka P ∨ Q bernilai salah. 
+                            Disjungsi hanya bisa bernilai benar jika salah satu atau keduanya benar.
+                        </p>
+                      </div>
+                
+                      <div class="question" data-correct="c">
+                        <p>9. Manakah pernyataan berikut yang bukan disjungsi?</p>
+                        <div class="answer-container">
+                          <input type="radio" id="q9a" name="q9" value="a">
+                          <label for="q9a">a) "Saya belajar dan saya mendapat nilai bagus."</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q9b" name="q9" value="b">
+                          <label for="q9b">b) </label>"Jika saya rajin, maka saya akan berhasil."
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q9c" name="q9" value="c">
+                          <label for="q9c">c) "Jika saya rajin, maka saya akan berhasil."</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q9d" name="q9" value="d">
+                          <label for="q9d">d) "Saya akan pergi ke taman atau menonton film."</label>
+                        </div>
+                        <p class="explanation hidden">Penjelasan: Pernyataan “jika…, maka…” adalah implikasi, 
+                            bukan disjungsi. Disjungsi menggunakan “atau”. </p>
+                      </div>
+                
+                      <div class="question" data-correct="a">
+                        <p>10. Diketahui:<br>
+                            P: "Bilangan 4 adalah bilangan genap."<br>
+                            Q: "Bilangan 4 adalah bilangan prima."<br>
+                            Nilai kebenaran dari P ∨ Q adalah:
+                            </p>
+                        <div class="answer-container">
+                          <input type="radio" id="q10a" name="q10" value="a">
+                          <label for="q10a">a) Benar</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q10b" name="q10" value="b">
+                          <label for="q10b">b) Salah</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q10c" name="q10" value="c">
+                          <label for="q10c">c) Benar jika  P benar</label>
+                        </div>
+                        <div class="answer-container">
+                          <input type="radio" id="q10d" name="q10" value="d">
+                          <label for="q10d">d) Tidak dapat ditentukan</label>
+                        </div>
+                        <p class="explanation hidden">Penjelasan: P bernilai benar karena bilangan 4 adalah bilangan genap.
+                             Disjungsi bernilai benar jika salah satu komponen benar, sehingga P ∨ Q bernilai benar.</p>
+                      </div>
+                
+                      <button type="button" onclick="submitQuiz()">Submit</button>
+                    </form>
+                    <p class="score hidden"></p>
+                  </div>
+                
+            
+            <script src="../js/quizkonjungsi.js"></script>
+      
+    </body>
+    
+    </html>
+   

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logika Matematika</title>
+    <link rel="stylesheet" href="../css/navbar footer.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo"><img src="../img/logo.png" alt="Logo"></a>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="proposisi.html">Proposisi</a>
+            <div class="dropdown">
+                <a href="operatorlogika.html" class="dropbtn">Operator Logika</a>
+                <div class="dropdown-content">
+                    <a href="konjungsi.html">Konjungsi</a>
+                    <a href="disjungsi.html">Disjungsi</a>
+                    <a href="negasi.html">Negasi</a>
+                    <a href="implikasi.html">Implikasi</a>
+                    <a href="biimplikasi.html">Biimplikasi</a>
+                    <a href="tautologi.html">Tautologi</a>
+                    <a href="kontradiksi.html">Kontradiksi</a>
+                    <a href="kontingensi.html">Kontingensi</a>
+                </div>
+            </div>
+            <a href="kalkulator.html">Kalkulator</a>
+            <a href="vidiopembelajaran.html">Vidio Pembelajaran</a>
+            <a href="quizbase.html">Quiz</a>
+        </div>
+    </nav>
+
+    <!-- isi -->
+    <section id="latihan">
+        <div class="quiz-container">
+            <h1>Quiz Logika Matematika (konjungsi)</h1>
+                <form id="quiz-form">
+                  <div class="question" data-correct="b">
+                    <p>1. Diketahui pernyataan: <br>P: "Hari ini hujan" <br> Q:  "Saya membawa payung" <br>Bentuk konjungsi dari P dan Q adalah</p>
+                    <div class="answer-container">
+                      <input type="radio" id="q1a" name="q1" value="a">
+                      <label for="q1a">a) Hari ini tidak hujan atau saya membawa payung</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q1b" name="q1" value="b">
+                      <label for="q1b">b) Hari ini hujan dan saya membawa payung</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q1c" name="q1" value="c">
+                      <label for="q1c">c) Hari ini hujan atau saya tidak membawa payung</label>
+                    </div> 
+                    <div class="answer-container">
+                      <input type="radio" id="q1d" name="q1" value="d">
+                      <label for="q1d">d) Jika hari ini hujan, maka saya membawa payung.</label>
+                    </div>
+                    <p class="explanation hidden">Penjelasan : Konjungsi adalah pernyataan gabungan yang menghubungkan dua pernyataan dengan kata “dan” (∧). Jadi, P ∧ Q berarti “Hari ini hujan dan saya membawa payung".</p>
+                  </div>
+            
+                  <div class="question" data-correct="b">
+                    <p>2. Jika  P bernilai benar dan Q  bernilai salah, maka nilai kebenaran dari konjungsi  P ∧ Q adalah
+                        </p>
+                    <div class="answer-container">
+                      <input type="radio" id="q2a" name="q2" value="a">
+                      <label for="q2a">a) Benar</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q2b" name="q2" value="b">
+                      <label for="q2b">b) Salah</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q2c" name="q2" value="c">
+                      <label for="q2c">c) Tidak tentu</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q2d" name="q2" value="d">
+                      <label for="q2d">d) Semua jawaban salah</label>
+                    </div>
+                    <p class="explanation hidden">Penjelasan: Nilai  kebenaran P ∧ Q hanya benar jika kedua pernyataan
+                         ( P dan  Q) bernilai benar. karena Q bernilai salah, maka P ∧ Q juga salah.</p>
+                  </div>
+            
+                  <div class="question" data-correct="c">
+                    <p>3. Manakah pernyataan di bawah ini yang merupakan konjungsi?</p>
+                    <div class="answer-container">
+                      <input type="radio" id="q3a" name="q3" value="a">
+                      <label for="q3a">a) Jika saya belajar, maka saya lulus.</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q3b" name="q3" value="b">
+                      <label for="q3b">b) Saya belajar atau saya lulus.</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q3c" name="q3" value="c">
+                      <label for="q3c">c) Saya belajar dan saya lulus.</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q3d" name="q3" value="d">
+                      <label for="q3d">d) Saya tidak belajar.</label>
+                    </div>
+                    <p class="explanation hidden">Penjelasan: Konjungsi menggabungkan dua pernyataan dengan kata “dan”.
+                         Pilihan C adalah satu-satunya pernyataan yang menggunakan kata “dan”, sehingga memenuhi definisi konjungsi. </p>
+                  </div>
+            
+                  <div class="question" data-correct="a">
+                    <p>4. Jika diketahui  P ∧  Q adalah benar, maka pernyataan berikut yang pasti benar adalah</p>
+                    <div class="answer-container">
+                      <input type="radio" id="q4a" name="q4" value="a">
+                      <label for="q4a">a) P  benar dan Q  benar</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q4b" name="q4" value="b">
+                      <label for="q4b">b) P  salah dan Q  salah.</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q4c" name="q4" value="c">
+                      <label for="q4c">c) P  benar dan Q  salah.</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q4d" name="q4" value="d">
+                      <label for="q4d">d) P  salah dan Q  benar.</label>
+                    </div>
+                    <p class="explanation hidden">Penjelasan: Konjungsi P ∧  Q hanya benar jika kedua komponen (P dan Q) bernilai benar.
+                         Jika salah satu komponen salah, maka P ∧  Q akan salah. </p>
+                  </div>
+            
+                  <div class="question" data-correct="d">
+                    <p>5. Pernyataan konjungsi dalam logika matematika disimbolkan dengan</p>
+                    <div class="answer-container">
+                      <input type="radio" id="q5a" name="q5" value="a">
+                      <label for="q5a">a) ∨</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q5b" name="q5" value="b">
+                      <label for="q5b">b) ~</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q5c" name="q5" value="c">
+                      <label for="q5c">c) →</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q5d" name="q5" value="d">
+                      <label for="q5d">d) ∧</label>
+                    </div>
+                    <p class="explanation hidden">Penjelasan: Dalam logika matematika, simbol ∧ digunakan untuk menyatakan “dan” (konjungsi).</p>
+                  </div>
+            
+                  <div class="question" data-correct="b">
+                    <p>6. Nilai kebenaran konjungsi  P ∧  Q adalah benar jika dan hanya jika:</p>
+                    <div class="answer-container">
+                      <input type="radio" id="q6a" name="q6" value="a">
+                      <label for="q6a">a) Salah satu dari P  atau  Q benar.</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q6b" name="q6" value="b">
+                      <label for="q6b">b) Kedua pernyataan P  dan Q benar</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q6c" name="q6" value="c">
+                      <label for="q6c">c) Kedua pernyataan P dan  Q salah</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q6d" name="q6" value="d">
+                      <label for="q6d">d) Salah satu dari  P atau  Q salah.</label>
+                    </div>
+                    <p class="explanation hidden">Penjelasan : Konjungsi bernilai benar hanya ketika kedua komponen ( P dan Q) bernilai benar.
+                         Dalam kondisi lain (salah satu atau keduanya salah), konjungsi akan bernilai salah.</p>
+                  </div>
+            
+                  <div class="question" data-correct="c">
+                    <p>7. Diberikan pernyataan:<br>
+                        P: "Angka 4 adalah bilangan genap"<br>
+                        Q: "Angka 5 adalah bilangan prima"<br>
+                        Pernyataan P ∧  Q  berbunyi:
+                        
+                        </p>
+                    <div class="answer-container">
+                      <input type="radio" id="q7a" name="q7" value="a">
+                      <label for="q7a">a) Angka 4 adalah bilangan genap atau angka 5 adalah bilangan prima.</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q7b" name="q7" value="b">
+                      <label for="q7b">b) Jika angka 4 adalah bilangan genap, maka angka 5 adalah bilangan prima.</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q7c" name="q7" value="c">
+                      <label for="q7c">c) Angka 4 adalah bilangan genap dan angka 5 adalah bilangan prima.</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q7d" name="q7" value="d">
+                      <label for="q7d">d) Angka 4 adalah bilangan genap tetapi angka 5 bukan bilangan prima</label>
+                    </div>
+                    <p class="explanation hidden">Penjelasan: Konjungsi  P ∧  Q  menggabungkan kedua pernyataan P dan Q dengan “dan”. </p>
+                  </div>
+            
+                  <div class="question" data-correct="b">
+                    <p>8. Konjungsi dari dua pernyataan yang keduanya salah akan menghasilkan nilai kebenaran:<br>
+                        </p>
+                    <div class="answer-container">
+                      <input type="radio" id="q8a" name="q8" value="a">
+                      <label for="q8a">a) Benar</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q8b" name="q8" value="b">
+                      <label for="q8b">b) Salah</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q8c" name="q8" value="c">
+                      <label for="q8c">c) Tidak tentu</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q8d" name="q8" value="d">
+                      <label for="q8d">d) Sama dengan salah satu pernyataan</label>
+                    </div>
+                    <p class="explanation hidden">Penjelasan: jika P salah dan Q salah, maka P ∧  Q   juga salah. Konjungsi hanya bisa bernilai benar jika kedua pernyataan benar. </p>
+                  </div>
+            
+                  <div class="question" data-correct="c">
+                    <p>9. Manakah pernyataan berikut yang bukan konjungsi?</p>
+                    <div class="answer-container">
+                      <input type="radio" id="q9a" name="q9" value="a">
+                      <label for="q9a">a) "Saya belajar dan saya mendapat nilai bagus."</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q9b" name="q9" value="b">
+                      <label for="q9b">b) "Hari ini cerah dan saya akan pergi ke luar rumah."</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q9c" name="q9" value="c">
+                      <label for="q9c">c) "Jika saya rajin, maka saya akan berhasil."</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q9d" name="q9" value="d">
+                      <label for="q9d">d) "Air mendidih pada suhu 100°C dan es mencair pada suhu 0°C."</label>
+                    </div>
+                    <p class="explanation hidden">Penjelasan: pernyataan “jika…, maka…” adalah implikasi, bukan konjungsi.
+                         Konjungsi adalah pernyataan gabungan yang menggunakan “dan”. </p>
+                  </div>
+            
+                  <div class="question" data-correct="b">
+                    <p>10. Diketahui pernyataan:<br>
+                        P:  "Bilangan 9 adalah kelipatan 3"<br>
+                        Q : "Bilangan 9 adalah bilangan genap"<br>
+                        Nilai kebenaran dari  P ∧  Q   adalah:
+                        </p>
+                    <div class="answer-container">
+                      <input type="radio" id="q10a" name="q10" value="a">
+                      <label for="q10a">a) Benar</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q10b" name="q10" value="b">
+                      <label for="q10b">b) Salah</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q10c" name="q10" value="c">
+                      <label for="q10c">c) Benar jika  P benar</label>
+                    </div>
+                    <div class="answer-container">
+                      <input type="radio" id="q10d" name="q10" value="d">
+                      <label for="q10d">d) Tidak dapat ditentukan</label>
+                    </div>
+                    <p class="explanation hidden">Penjelasan: Konjungsi  P ∧  Q   hanya bernilai benar jika kedua pernyataan ( P dan Q) bernilai benar. Dalam soal ini:<br>
+                        P: “Bilangan 9 adalah kelipatan 3” (Benar)<br>
+                        Q: “Bilangan 9 adalah bilangan genap” (Salah).<br> 
+                        Karena Q salah, maka P ∧  Q    bernilai salah. 
+                        </p>
+                  </div>
+            
+                  <button type="button" onclick="submitQuiz()">Submit</button>
+                </form>
+                <p class="score hidden"></p>
+              </div>
+            
+        
+        <script src="../js/quizkonjungsi.js"></script>
+  
+    
+</body>
+
+</html>

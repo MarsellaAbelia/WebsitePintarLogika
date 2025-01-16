@@ -1,0 +1,93 @@
+.operatorlogika {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.operatorlogika h1 {
+    font-size: 2.5em;
+    color: #080352;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-top: 0;
+}
+
+.operatorlogika p {
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    color: #080352;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.operator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.operator-buttons .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.operator-buttons .button a {
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    background-color: #cfe4e7;
+    color: rgb(53, 44, 44);
+    text-decoration: none;
+    border: 2px solid #4c87af;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.operator-buttons .button a:hover {
+    background-color: white;
+    color: #4c8baf;
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,td {
+    border: 2px solid #242424;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #cfe4e7;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #003d66;
+    background-color: #f8f4ee;
+    padding: 5px 0;
+    font-size: 16px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}

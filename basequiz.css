@@ -1,0 +1,40 @@
+header {
+    font-size: large;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #080352;
+}
+
+.sub{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #080352;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+}
+
+.item {
+    width: calc(25% - 20px); 
+    text-align: center;
+}
+
+.item img {
+    width: 100%; 
+    height: auto;
+}
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}

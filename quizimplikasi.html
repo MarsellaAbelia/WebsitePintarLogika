@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logika Matematika</title>
+    <link rel="stylesheet" href="../css/navbar footer.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo"><img src="../img/logo.png" alt="Logo"></a>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="proposisi.html">Proposisi</a>
+            <div class="dropdown">
+                <a href="operatorlogika.html" class="dropbtn">Operator Logika</a>
+                <div class="dropdown-content">
+                    <a href="konjungsi.html">Konjungsi</a>
+                    <a href="disjungsi.html">Disjungsi</a>
+                    <a href="negasi.html">Negasi</a>
+                    <a href="implikasi.html">Implikasi</a>
+                    <a href="biimplikasi.html">Biimplikasi</a>
+                    <a href="tautologi.html">Tautologi</a>
+                    <a href="kontradiksi.html">Kontradiksi</a>
+                    <a href="kontingensi.html">Kontingensi</a>
+                </div>
+            </div>
+            <a href="kalkulator.html">Kalkulator</a>
+            <a href="vidiopembelajaran.html">Vidio Pembelajaran</a>
+            <a href="quizbase.html">Quiz</a>
+        </div>
+    </nav>
+
+    <!-- isi -->
+    <section id="latihan">
+        <div class="quiz-container">
+            <h1>Quiz Logika Matematika (implikasi)</h1>
+    <form id="quiz-form-negation">
+    <div class="question" data-correct="b">
+        <p>1. Diketahui:<br>
+          P: "Saya Belajar"<br>
+          Q: "Saya Lulus"<br>
+          Implikasi dari P → Q adalah:</p>
+        <div class="answer-container">
+          <input type="radio" id="q1a" name="q1" value="a">
+          <label for="q1a">a) Jika saya lulus, maka saya belajar.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q1b" name="q1" value="b">
+          <label for="q1b">b) Jika saya belajar, maka saya lulus.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q1c" name="q1" value="c">
+          <label for="q1c">c) Saya lulus jika saya belajar.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q1d" name="q1" value="d">
+          <label for="q1d">d) Jika saya tidak belajar, maka saya tidak lulus.</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Implikasi P → Q berarti jika P benar, maka Q juga benar. Jadi, P → Q berbunyi “Jika saya belajar, maka saya lulus.”</p>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question" data-correct="b">
+        <p>2. Jika pernyataan P adalah "Angka 6 adalah bilangan genap" dan pernyataan Q adalah "Angka 6 adalah bilangan prima", maka bentuk implikasi 
+        P → Q adalah</p>
+        <div class="answer-container">
+          <input type="radio" id="q2a" name="q2" value="a">
+          <label for="q2a">a) Benar, karena setiap bilangan genap pasti bilangan prima.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q2b" name="q2" value="b">
+          <label for="q2b">b) Salah, karena 6 adalah bilangan genap tetapi bukan bilangan prima.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q2c" name="q2" value="c">
+          <label for="q2c">c) Benar, karena 6 adalah bilangan genap dan 6 juga merupakan bilangan prima.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q2d" name="q2" value="d">
+          <label for="q2d">d)  Salah, karena implikasi tidak dapat dibentuk antara pernyataan-pernyataan ini.</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan P → Q berbentuk "Jika 6 adalah bilangan genap, maka 6 adalah bilangan prima". Namun, pernyataan P (6 adalah bilangan genap) benar, tetapi pernyataan Q (6 adalah bilangan prima) salah, karena 6 bukanlah bilangan prima. Dalam logika, implikasi P → Q hanya salah jika 
+         P benar dan Q salah.</p>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="question" data-correct="a">
+        <p>3. Pernyataan P ⇒ Q bernilai salah jika</p>
+        <div class="answer-container">
+          <input type="radio" id="q3a" name="q3" value="a">
+          <label for="q3a">a) P benar dan Q salah.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q3b" name="q3" value="b">
+          <label for="q3b">b) P salah dan Q benar.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q3c" name="q3" value="c">
+          <label for="q3c">c) P salah dan Q salah.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q3d" name="q3" value="d">
+          <label for="q3d">d) P benar dan Q benar.</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Implikasi P ⇒ Q hanya bernilai salah jika kondisi P benar dan Q salah. Sebab, dalam logika, sebuah implikasi akan bernilai benar kecuali ketika premisnya benar (P) dan kesimpulannya salah (Q). Jika 
+          P benar dan Q salah, maka implikasi P ⇒ Q adalah salah.</p>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="question" data-correct="b">
+        <p>4. Manakah dari pernyataan berikut yang benar mengenai implikasi P ⇒ Q ?</p>
+        <div class="answer-container">
+          <input type="radio" id="q4a" name="q4" value="a">
+          <label for="q4a">a) Jika P benar, maka Q juga harus benar agar implikasi ini benar.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q4b" name="q4" value="b">
+          <label for="q4b">b) Jika P salah, maka implikasi ini selalu benar, tidak peduli apakah Q benar atau salah.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q4c" name="q4" value="c">
+          <label for="q4c">c)  Jika P benar, maka Q harus salah agar implikasi ini benar.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q4d" name="q4" value="d">
+          <label for="q4d">d) Jika Q benar, maka implikasi P ⇒ Q selalu benar.</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Dalam logika implikasi, pernyataan P ⇒ Q selalu bernilai benar jika P salah, terlepas dari apakah 
+          Q benar atau salah. Ini adalah salah satu aturan dasar dari implikasi. Jika premis (P) salah, maka implikasi akan selalu dianggap benar.</p>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="question" data-correct="c">
+        <p>5. Tentukan nilai kebenaran dari implikasi P⇒Q jika P adalah "Semua manusia adalah makhluk hidup" dan Q adalah "Semua manusia bisa terbang".</p>
+        <div class="answer-container">
+          <input type="radio" id="q5a" name="q5" value="a">
+          <label for="q5a">a) Benar, karena P benar dan Q benar.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q5b" name="q5" value="b">
+          <label for="q5b">b) Benar, karena P salah dan Q salah.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q5c" name="q5" value="c">
+          <label for="q5c">c)  Salah, karena P benar dan Q salah.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q5d" name="q5" value="d">
+          <label for="q5d">d) Salah, karena P salah dan Q benar.</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan P benar karena "semua manusia adalah makhluk hidup" adalah benar. Namun, pernyataan 
+        Q salah karena "semua manusia bisa terbang" tidak benar. Dalam logika, implikasi P⇒Q hanya salah jika P benar dan Q salah. Oleh karena itu, implikasi ini salah.</p>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="question" data-correct="b">
+        <p>6. Jika P ⇒ Q adalah implikasi yang benar, dan kita mengetahui bahwa Q benar, maka kita dapat menyimpulkan bahwa</p>
+        <div class="answer-container">
+          <input type="radio" id="q6a" name="q6" value="a">
+          <label for="q6a">a) P pasti benar.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q6b" name="q6" value="b">
+          <label for="q6b">b) P bisa benar atau salah.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q6c" name="q6" value="c">
+          <label for="q6c">c) P pasti salah.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q6d" name="q6" value="d">
+          <label for="q6d">d) Tidak ada informasi yang bisa disimpulkan mengenai P</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Dari implikasi P ⇒ Q, kita hanya dapat menyimpulkan bahwa jika P benar, maka Q juga harus benar. Namun, jika 
+          Q benar, kita tidak bisa langsung menyimpulkan apakah P benar atau salah. P bisa benar atau salah karena implikasi bisa tetap benar jika premis (P) salah dan kesimpulan (Q) benar.</p>
+      </div>
+
+      <!-- Question 7 -->
+      <div class="question" data-correct="a">
+        <p>7. Diberikan implikasi P ⇒ Q dengan P adalah "Jika angka adalah kelipatan 4, maka angka tersebut kelipatan 2." Pernyataan tersebut:</p>
+        <div class="answer-container">
+          <input type="radio" id="q7a" name="q7" value="a">
+          <label for="q7a">a) Benar, karena setiap kelipatan 4 adalah kelipatan 2.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q7b" name="q7" value="b">
+          <label for="q7b">b) Salah, karena tidak semua kelipatan 4 adalah kelipatan 2.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q7c" name="q7" value="c">
+          <label for="q7c">c) Benar, karena implikasi ini menunjukkan hubungan dua pernyataan yang salah.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q7d" name="q7" value="d">
+          <label for="q7d">d) Salah, karena kelipatan 4 tidak berhubungan dengan kelipatan 2.</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan ini benar karena setiap kelipatan 4 juga pasti kelipatan 2. Misalnya, 4, 8, 12, dan seterusnya adalah kelipatan 4, dan semuanya juga kelipatan 2. Oleh karena itu, implikasi P ⇒ Q adalah benar.</p>
+      </div>
+
+      <!-- Question 8 -->
+      <div class="question" data-correct="b">
+        <p>8. Implikasi dari "Jika saya mengerjakan tugas, maka saya mendapatkan nilai A" adalah:</p>
+        <div class="answer-container">
+          <input type="radio" id="q8a" name="q8" value="a">
+          <label for="q8a">a) Jika saya mendapatkan nilai A, maka saya mengerjakan tugas.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q8b" name="q8" value="b">
+          <label for="q8b">b) Jika saya mengerjakan tugas, maka saya mendapatkan nilai A.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q8c" name="q8" value="c">
+          <label for="q8c">c) Jika saya tidak mendapatkan nilai A, maka saya tidak mengerjakan tugas.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q8d" name="q8" value="d">
+          <label for="q8d">d) Jika saya mengerjakan tugas, maka saya tidak mendapatkan nilai A.</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Implikasi dari "Jika saya mengerjakan tugas, maka saya mendapatkan nilai A" adalah "Jika saya mengerjakan tugas, maka saya mendapatkan nilai A".</p>
+      </div>
+
+      <!-- Question 9 -->
+      <div class="question" data-correct="a">
+        <p>9. Pernyataan berikut ini adalah bentuk implikasi dari kalimat: "Jika hari hujan, maka saya membawa payung."</p>
+        <div class="answer-container">
+          <input type="radio" id="q9a" name="q9" value="a">
+          <label for="q9a">a) P ⇒ Q, di mana P adalah "Hari hujan" dan Q adalah "Saya membawa payung."</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q9b" name="q9" value="b">
+          <label for="q9b">b) P ⇒ Q, di mana P adalah "Saya membawa payung" dan Q adalah "Hari hujan."</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q9c" name="q9" value="c">
+          <label for="q9c">c) Q ⇒ P, di mana P adalah "Hari hujan" dan Q adalah "Saya membawa payung."</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q9d" name="q9" value="d">
+          <label for="q9d">d) Tidak bisa dituliskan dalam bentuk implikasi.</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Kalimat "Jika hari hujan, maka saya membawa payung" bisa ditulis dalam bentuk implikasi P ⇒ Q, di mana 
+        P adalah "Hari hujan" dan Q adalah "Saya membawa payung". Ini adalah bentuk standar dari implikasi logika yang menyatakan hubungan sebab-akibat.</p>
+      </div>
+
+      <!-- Question 10 -->
+      <div class="question" data-correct="b">
+        <p>10. Pernyataan P ⇒ Q disebut tautologi jika</p>
+        <div class="answer-container">
+          <input type="radio" id="q10a" name="q10" value="a">
+          <label for="q10a">a)P dan Q keduanya selalu benar. </label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q10b" name="q10" value="b">
+          <label for="q10b">b) Implikasi P ⇒ Q selalu benar, tidak peduli apakah P benar atau salah. </label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q10c" name="q10" value="c">
+          <label for="q10c">c) P selalu salah, dan Q bisa benar atau salah/.</label>
+        </div>
+        <div class="answer-container">
+          <input type="radio" id="q10d" name="q10" value="d">
+          <label for="q10d">d) P dan Q selalu salah</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Sebuah implikasi disebut tautologi jika ia selalu benar untuk semua kemungkinan nilai P dan Q. Ini terjadi jika P salah, karena implikasi  P ⇒ Q akan selalu bernilai benar jika premis (P) salah, terlepas dari nilai Q. Ini adalah definisi tautologi dalam logika. </p>
+      </div>
+
+      <button type="button" onclick="submitQuiz()">Submit</button>
+    </form>
+    <p class="score hidden"></p>
+
+<script src="../js/quizkonjungsi.js"></script>
+</div>
+</section>
+   
+</body>
+
+</html>

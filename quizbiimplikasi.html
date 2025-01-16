@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logika Matematika</title>
+    <link rel="stylesheet" href="../css/navbar footer.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo"><img src="../img/logo.png" alt="Logo"></a>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="proposisi.html">Proposisi</a>
+            <div class="dropdown">
+                <a href="operatorlogika.html" class="dropbtn">Operator Logika</a>
+                <div class="dropdown-content">
+                    <a href="konjungsi.html">Konjungsi</a>
+                    <a href="disjungsi.html">Disjungsi</a>
+                    <a href="negasi.html">Negasi</a>
+                    <a href="implikasi.html">Implikasi</a>
+                    <a href="biimplikasi.html">Biimplikasi</a>
+                    <a href="tautologi.html">Tautologi</a>
+                    <a href="kontradiksi.html">Kontradiksi</a>
+                    <a href="kontingensi.html">Kontingensi</a>
+                </div>
+            </div>
+            <a href="kalkulator.html">Kalkulator</a>
+            <a href="vidiopembelajaran.html">Vidio Pembelajaran</a>
+            <a href="quizbase.html">Quiz</a>
+        </div>
+    </nav>
+
+    <!-- isi -->
+    <section id="latihan">
+        <div class="quiz-container">
+            <h1>Quiz Logika Matematika (biimplikasi)</h1>
+    <form id="quiz-form-negation">
+        <div class="question" data-correct="b">
+            <p>1. Diketahui:<br>
+              P: "Saya belajar"<br>
+              Q: "Saya lulus ujian"<br>
+              Biimplikasi dari P ↔ Q adalah:</p>
+            <div class="answer-container">
+              <input type="radio" id="q1a" name="q1" value="a">
+              <label for="q1a">a) Saya lulus ujian jika dan hanya jika saya belajar.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q1b" name="q1" value="b">
+              <label for="q1b">b) Saya belajar jika dan hanya jika saya lulus ujian.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q1c" name="q1" value="c">
+              <label for="q1c">c) Jika saya belajar, maka saya lulus ujian dan sebaliknya.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q1d" name="q1" value="d">
+              <label for="q1d">d) Jika saya tidak belajar, maka saya tidak lulus ujian.</label>
+            </div>
+            <p class="explanation hidden">Penjelasan: Biimplikasi P ↔ Q menyatakan bahwa P dan Q harus memiliki nilai kebenaran yang sama. Artinya, saya hanya lulus ujian jika dan hanya jika saya belajar.</p>
+          </div>
+    
+          <!-- Question 2 -->
+          <div class="question" data-correct="c">
+            <p>2. Diberikan pernyataan P ⟺ Q, Pernyataan ini berarti:</p>
+            <div class="answer-container">
+              <input type="radio" id="q2a" name="q2" value="a">
+              <label for="q2a">a) P benar hanya jika Q benar. </label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q2b" name="q2" value="b">
+              <label for="q2b">b) P dan Q selalu salah.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q2c" name="q2" value="c">
+              <label for="q2c">c) P benar jika dan hanya jika Q benar.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q2d" name="q2" value="d">
+              <label for="q2d">d) P benar atau Q benar.</label>
+            </div>
+            <p class="explanation hidden">Penjelasan: Biimplikasi (⟺) adalah hubungan logika yang menyatakan bahwa kedua pernyataan harus memiliki nilai kebenaran yang sama agar pernyataan tersebut bernilai benar. Artinya, 
+              P ⟺ Q berarti P benar jika dan hanya jika Q juga benar.</p>
+          </div>
+    
+          <!-- Question 3 -->
+          <div class="question" data-correct="b">
+            <p>3. Jika P adalah "Saya belajar" dan Q adalah "Saya lulus ujian," maka pernyataan P ⟺ Q berarti:</p>
+            <div class="answer-container">
+              <input type="radio" id="q3a" name="q3" value="a">
+              <label for="q3a">a) Saya belajar maka saya pasti lulus ujian.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q3b" name="q3" value="b">
+              <label for="q3b">b) Saya belajar jika dan hanya jika saya lulus ujian.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q3c" name="q3" value="c">
+              <label for="q3c">c) Saya tidak belajar jika saya tidak lulus ujian.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q3d" name="q3" value="d">
+              <label for="q3d">d) Jika saya tidak lulus ujian, maka saya tidak belajar.</label>
+            </div>
+            <p class="explanation hidden">Penjelasan: Pernyataan P ⟺ Q menunjukkan hubungan dua arah, yaitu 
+              P → Q dan Q → P. Dalam konteks ini, P ⟺ Q berarti "Saya belajar jika dan hanya jika saya lulus ujian."</p>
+          </div>
+    
+          <!-- Question 4 -->
+          <div class="question" data-correct="a">
+            <p>4. Biimplikasi dari "Jika saya tidak terlambat, maka saya hadir tepat waktu" adalah:</p>
+            <div class="answer-container">
+              <input type="radio" id="q4a" name="q4" value="a">
+              <label for="q4a">a) Saya tidak terlambat jika dan hanya jika saya hadir tepat waktu.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q4b" name="q4" value="b">
+              <label for="q4b">b) Jika saya tidak terlambat, maka saya hadir tepat waktu.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q4c" name="q4" value="c">
+              <label for="q4c">c) Jika saya hadir tepat waktu, maka saya tidak terlambat.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q4d" name="q4" value="d">
+              <label for="q4d">d) Saya terlambat jika dan hanya jika saya tidak hadir tepat waktu.</label>
+            </div>
+            <p class="explanation hidden">Penjelasan: Biimplikasi menyatakan bahwa ketidakterlambatan hanya terjadi jika dan hanya jika saya hadir tepat waktu.</p>
+          </div>
+    
+          <!-- Question 5 -->
+          <div class="question" data-correct="c">
+            <p>5. Biimplikasi dari "Jika saya bekerja keras, maka saya mendapatkan promosi" adalah:</p>
+            <div class="answer-container">
+              <input type="radio" id="q5a" name="q5" value="a">
+              <label for="q5a">a) Saya bekerja keras jika dan hanya jika saya mendapatkan promosi.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q5b" name="q5" value="b">
+              <label for="q5b">b) Jika saya bekerja keras, maka saya mendapatkan promosi, dan sebaliknya.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q5c" name="q5" value="c">
+              <label for="q5c">c) Saya bekerja keras jika dan hanya jika saya mendapatkan promosi.</label>
+            </div>
+            <div class="answer-container">
+              <input type="radio" id="q5d" name="q5" value="d">
+              <label for="q5d">d) Jika saya tidak bekerja keras, maka saya tidak mendapatkan promosi.</label>
+            </div>
+            <p class="explanation hidden">Penjelasan: Biimplikasi P ↔ Q berarti bahwa saya hanya mendapatkan promosi jika dan hanya jika saya bekerja keras.</p>
+          </div>
+
+          <!-- Question 6 -->
+<div class="question" data-correct="a">
+    <p>6. Pernyataan (P ⟺ Q) ∧ ~Q bernilai benar jika:</p>
+    <div class="answer-container">
+      <input type="radio" id="q6a" name="q6" value="a">
+      <label for="q6a">a)  P benar dan Q salah.</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q6b" name="q6" value="b">
+      <label for="q6b">b) P salah dan Q benar.</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q6c" name="q6" value="c">
+      <label for="q6c">c) P salah dan Q salah.</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q6d" name="q6" value="d">
+      <label for="q6d">d) P benar dan Q benar.</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: P ⟺ Q bernilai benar jika P dan Q memiliki nilai kebenaran yang sama, sedangkan ¬Q bernilai benar jika 
+      Q salah. Jadi, jika ¬Q benar, maka Q salah. Untuk  P ⟺ Q tetap benar, P juga harus salah. Jadi, kombinasi yang memenuhi adalah 
+      P salah dan Q salah.</p>
+  </div>
+  
+  <!-- Question 7 -->
+  <div class="question" data-correct="b">
+    <p>7. Diberikan pernyataan (P ⟺ Q) ⟺ R, Pernyataan ini akan bernilai benar jika:</p>
+    <div class="answer-container">
+      <input type="radio" id="q7a" name="q7" value="a">
+      <label for="q7a">a) P, Q, dan R semuanya bernilai benar. </label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q7b" name="q7" value="b">
+      <label for="q7b">b) P ⟺ Q bernilai sama dengan R.</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q7c" name="q7" value="c">
+      <label for="q7c">c) P bernilai sama dengan R, terlepas dari nilai Q.</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q7d" name="q7" value="d">
+      <label for="q7d">d) Q bernilai sama dengan R, terlepas dari nilai P.</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: Pernyataan (P ⟺ Q) ⟺ R berarti nilai kebenaran dari 
+      P ⟺ Q harus sama dengan nilai kebenaran R. Jadi, P ⟺ Q dan R harus memiliki nilai kebenaran yang sama. </p>
+  </div>
+  
+  <!-- Question 8 -->
+  <div class="question" data-correct="c">
+    <p>8. Jika P ⟺ Q adalah benar, maka pernyataan yang pasti benar adalah</p>
+    <div class="answer-container">
+      <input type="radio" id="q8a" name="q8" value="a">
+      <label for="q8a">a) P ∨ Q</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q8b" name="q8" value="b">
+      <label for="q8b">b) P ∧ Q</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q8c" name="q8" value="c">
+      <label for="q8c">c) ~P ⟺ ~Q</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q8d" name="q8" value="d">
+      <label for="q8d">d) P → Q</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: Jika P ⟺ Q benar, maka P dan Q memiliki nilai kebenaran yang sama. Hal ini berarti 
+      ~P dan ~Q juga memiliki nilai kebenaran yang sama, sehingga ~P ⟺ ~Q pasti benar.</p>
+  </div>
+  
+  <!-- Question 9 -->
+  <div class="question" data-correct="c">
+    <p>9. Jika diketahui P ⟺ Q bernilai salah, maka kemungkinan nilai P dan Q adalah</p>
+    <div class="answer-container">
+      <input type="radio" id="q9a" name="q9" value="a">
+      <label for="q9a">a) P benar, Q benar</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q9b" name="q9" value="b">
+      <label for="q9b">b) P salah, Q salah</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q9c" name="q9" value="c">
+      <label for="q9c">c) P benar, Q salah</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q9d" name="q9" value="d">
+      <label for="q9d">d) P salah, Q salah atau P benar, Q salah</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: ⟺Q bernilai salah jika dan hanya jika P dan Q memiliki nilai kebenaran yang berbeda. Jadi, jika 
+    P benar, Q harus salah, dan sebaliknya.</p>
+  </div>
+  
+  <!-- Question 10 -->
+  <div class="question" data-correct="c">
+    <p>10. Biimplikasi dari "Jika saya memiliki pekerjaan, maka saya memiliki penghasilan" adalah:</p>
+    <div class="answer-container">
+      <input type="radio" id="q10a" name="q10" value="a">
+      <label for="q10a">a) Jika saya memiliki penghasilan, maka saya memiliki pekerjaan.</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q10b" name="q10" value="b">
+      <label for="q10b">b) Jika saya memiliki pekerjaan, maka saya memiliki penghasilan, dan sebaliknya.</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q10c" name="q10" value="c">
+      <label for="q10c">c) Saya memiliki pekerjaan jika dan hanya jika saya memiliki penghasilan.</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q10d" name="q10" value="d">
+      <label for="q10d">d) Jika saya tidak memiliki pekerjaan, maka saya tidak memiliki penghasilan.</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: Biimplikasi menyatakan bahwa saya hanya memiliki penghasilan jika dan hanya jika saya memiliki pekerjaan.</p>
+  </div>
+
+  <button type="button" onclick="submitQuiz()">Submit</button>
+</form>
+<p class="score hidden"></p>
+
+<script src="../js/quizkonjungsi.js"></script>
+</div>
+</section>
+
+</body>
+
+</html>

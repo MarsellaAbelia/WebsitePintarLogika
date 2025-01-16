@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logika Matematika</title>
+    <link rel="stylesheet" href="../css/navbar footer.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo"><img src="../img/logo.png" alt="Logo"></a>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="proposisi.html">Proposisi</a>
+            <div class="dropdown">
+                <a href="operatorlogika.html" class="dropbtn">Operator Logika</a>
+                <div class="dropdown-content">
+                    <a href="konjungsi.html">Konjungsi</a>
+                    <a href="disjungsi.html">Disjungsi</a>
+                    <a href="negasi.html">Negasi</a>
+                    <a href="implikasi.html">Implikasi</a>
+                    <a href="biimplikasi.html">Biimplikasi</a>
+                    <a href="tautologi.html">Tautologi</a>
+                    <a href="kontradiksi.html">Kontradiksi</a>
+                    <a href="kontingensi.html">Kontingensi</a>
+                </div>
+            </div>
+            <a href="kalkulator.html">Kalkulator</a>
+            <a href="vidiopembelajaran.html">Vidio Pembelajaran</a>
+            <a href="quizbase.html">Quiz</a>
+        </div>
+    </nav>
+
+    <!-- isi -->
+    <section id="latihan">
+        <div class="quiz-container">
+            <h1>Quiz Logika Matematika (tautologi)</h1>
+    <form id="quiz-form-negation">
+       <!-- Question 1 -->
+       <div class="question" data-correct="b">
+        <p>1. Diketahui:<br>
+        P: "Jika saya belajar, maka saya lulus."<br>
+        Q: "Saya belajar"<br>
+        Pernyataan tautologi yang sesuai dengan P → Q adalah:</p>
+        <div class="answer-container">
+            <input type="radio" id="q1a" name="q1" value="a">
+            <label for="q1a">a) Jika saya lulus, maka saya belajar.</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q1b" name="q1" value="b">
+            <label for="q1b">b) Jika saya belajar, maka saya lulus.</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q1c" name="q1" value="c">
+            <label for="q1c">c) Saya lulus jika saya belajar.</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q1d" name="q1" value="d">
+            <label for="q1d">d) Jika saya tidak belajar, maka saya tidak lulus.</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Implikasi P → Q berbunyi “Jika saya belajar, maka saya lulus,” yang merupakan tautologi.</p>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question" data-correct="a">
+        <p>2. Manakah pernyataan berikut yang merupakan tautologi?</p>
+        <div class="answer-container">
+            <input type="radio" id="q2a" name="q2" value="a">
+            <label for="q2a">a) P ∨ ~P</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q2b" name="q2" value="b">
+            <label for="q2b">b) P ∧ ~P</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q2c" name="q2" value="c">
+            <label for="q2c">c) P ∨ Q</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q2d" name="q2" value="d">
+            <label for="q2d">d) P → Q</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Tautologi adalah pernyataan logika yang selalu benar, terlepas dari nilai kebenaran variabelnya. Pernyataan 
+            P ∨ ~P (hukum eksklusi tengah) selalu bernilai benar. </p>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question" data-correct="b">
+        <p>3. Jika P adalah pernyataan logika, maka pernyataan manakah yang bukan tautologi?</p>
+        <div class="answer-container">
+            <input type="radio" id="q3a" name="q3" value="a">
+            <label for="q3a">a) P ∨ ~P</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q3b" name="q3" value="b">
+            <label for="q3b">b) P ∧ ~P</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q3c" name="q3" value="c">
+            <label for="q3c">c) P → (P ∨ Q)</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q3d" name="q3" value="d">
+            <label for="q3d">d) ~P → (P ∨ Q)</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan P ∧ ~P (kontradiksi) selalu salah, sehingga bukan tautologi. Sementara pilihan lain menghasilkan kebenaran dalam semua kemungkinan.</p>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question" data-correct="a">
+        <p>4. Pernyataan (P ∨ Q) ∨ ~P adalah</p>
+        <div class="answer-container">
+            <input type="radio" id="q4a" name="q4" value="a">
+            <label for="q4a">a) Tautologi</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q4b" name="q4" value="b">
+            <label for="q4b">b) Kontradiksi</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q4c" name="q4" value="c">
+            <label for="q4c">c) Kontingensi</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q4d" name="q4" value="d">
+            <label for="q4d">d) Tidak dapat ditentukan</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan (P ∨ Q) ∨ ~P akan selalu benar karena salah satu dari 
+         P atau ~P akan bernilai benar.</p>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question" data-correct="c">
+        <p>5. Implikasi dari "Jika saya pergi ke gym, maka saya menjadi lebih sehat" adalah:</p>
+        <div class="answer-container">
+            <input type="radio" id="q5a" name="q5" value="a">
+            <label for="q5a">a) Jika saya lebih sehat, maka saya pergi ke gym.</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q5b" name="q5" value="b">
+            <label for="q5b">b) Jika saya tidak lebih sehat, maka saya tidak pergi ke gym.</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q5c" name="q5" value="c">
+            <label for="q5c">c) Jika saya pergi ke gym, maka saya menjadi lebih sehat.</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q5d" name="q5" value="d">
+            <label for="q5d">d) Jika saya menjadi lebih sehat, maka saya tidak pergi ke gym.</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Implikasi tautologi adalah “Jika saya pergi ke gym, maka saya menjadi lebih sehat.”</p>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="question" data-correct="d">
+        <p>6. Pernyataan (P ∧ Q) ∨ ~P akan selalu benar jika</p>
+        <div class="answer-container">
+            <input type="radio" id="q6a" name="q6" value="a">
+            <label for="q6a">a) P dan Q salah</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q6b" name="q6" value="b">
+            <label for="q6b">b) P ∨ Q salah</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q6c" name="q6" value="c">
+            <label for="q6c">c) P ∨ Q benar</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q6d" name="q6" value="d">
+            <label for="q6d">d) Nilai kebenaran P dan Q tidak memengaruhi hasil</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan (P ∧ Q) ∨ ~P adalah tautologi karena selalu bernilai benar, terlepas dari nilai 
+        P dan Q.</p>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="question" data-correct="d">
+        <p>7. Manakah pernyataan berikut yang merupakan negasi dari tautologi?</p>
+        <div class="answer-container">
+            <input type="radio" id="q7a" name="q7" value="a">
+            <label for="q7a">a) P ∨ ~P</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q7b" name="q7" value="b">
+            <label for="q7b">b) P ∧ ~P</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q7c" name="q7" value="c">
+            <label for="q7c">c) ~(P ∧ Q)</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q7d" name="q7" value="d">
+            <label for="q7d">d) ~(P ∨ ~P)</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Negasi dari tautologi P ∨ ~P menghasilkan kontradiksi 
+        ~(P ∨ ~P), yang selalu salah.</p>
+    </div>
+
+    <!-- Question 8 -->
+    <div class="question" data-correct="a">
+        <p>8. Jika P ∧ Q adalah kontradiksi, maka ~(P ∧ Q) adalah</p>
+        <div class="answer-container">
+            <input type="radio" id="q8a" name="q8" value="a">
+            <label for="q8a">a) Selalu benar</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q8b" name="q8" value="b">
+            <label for="q8b">b) Selalu salah</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q8c" name="q8" value="c">
+            <label for="q8c">c) Kadang benar dan kadang salah</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q8d" name="q8" value="d">
+            <label for="q8d">d) Tidak dapat ditentukan</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Negasi dari kontradiksi akan selalu menghasilkan tautologi, yaitu pernyataan yang selalu benar.</p>
+    </div>
+
+    <!-- Question 9 -->
+    <div class="question" data-correct="c">
+        <p>9. Manakah pernyataan berikut yang merupakan negasi dari P ∨ Q</p>
+        <div class="answer-container">
+            <input type="radio" id="q9a" name="q9" value="a">
+            <label for="q9a">a) ~P ∧ Q</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q9b" name="q9" value="b">
+            <label for="q9b">b) ~P ∨ ~Q</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q9c" name="q9" value="c">
+            <label for="q9c">c) ~P ∧ ~Q</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q9d" name="q9" value="d">
+            <label for="q9d">d) P ∧ ~Q</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Menurut hukum De Morgan, negasi dari P ∨ Q adalah 
+         ~P ∧ ~Q, yang selalu salah jika P ∨ Q benar.</p>
+    </div>
+
+    <!-- Question 10 -->
+    <div class="question" data-correct="c">
+        <p>10. Jika diketahui P ∨ ~Q adalah tautologi, maka nilai Q harus</p>
+        <div class="answer-container">
+            <input type="radio" id="q10a" name="q10" value="a">
+            <label for="q10a">a) Selalu benar
+            </label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q10b" name="q10" value="b">
+            <label for="q10b">b) Selalu salah</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q10c" name="q10" value="c">
+            <label for="q10c">c) Tidak memengaruhi hasil</label>
+        </div>
+        <div class="answer-container">
+            <input type="radio" id="q10d" name="q10" value="d">
+            <label for="q10d">d) Sama dengan P</label>
+        </div>
+        <p class="explanation hidden">Penjelasan: Pernyataan P ∨ ~Q adalah tautologi yang selalu benar, terlepas dari nilai 
+        Q. Nilai Q tidak memengaruhi hasil pernyataan ini.</p>
+    </div>
+
+  <button type="button" onclick="submitQuiz()">Submit</button>
+</form>
+<p class="score hidden"></p>
+
+<script src="../js/quizkonjungsi.js"></script>
+</div>
+</section>
+    
+</body>
+
+</html>

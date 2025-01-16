@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logika Matematika</title>
+    <link rel="stylesheet" href="../css/navbar footer.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo"><img src="../img/logo.png" alt="Logo"></a>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="proposisi.html">Proposisi</a>
+            <div class="dropdown">
+                <a href="operatorlogika.html" class="dropbtn">Operator Logika</a>
+                <div class="dropdown-content">
+                    <a href="konjungsi.html">Konjungsi</a>
+                    <a href="disjungsi.html">Disjungsi</a>
+                    <a href="negasi.html">Negasi</a>
+                    <a href="implikasi.html">Implikasi</a>
+                    <a href="biimplikasi.html">Biimplikasi</a>
+                    <a href="tautologi.html">Tautologi</a>
+                    <a href="kontradiksi.html">Kontradiksi</a>
+                    <a href="kontingensi.html">Kontingensi</a>
+                </div>
+            </div>
+            <a href="kalkulator.html">Kalkulator</a>
+            <a href="vidiopembelajaran.html">Vidio Pembelajaran</a>
+            <a href="quizbase.html">Quiz</a>
+        </div>
+    </nav>
+
+    <!-- isi -->
+    <section id="latihan">
+        <div class="quiz-container">
+            <h1>Quiz Logika Matematika (kontingensi)</h1>
+    <form id="quiz-form-negation">
+
+        <!-- Question 1 -->
+<div class="question" data-correct="c">
+    <p>1. Manakah dari pernyataan berikut yang merupakan kontingensi?</p>
+    <div class="answer-container">
+      <input type="radio" id="q1a" name="q1" value="a">
+      <label for="q1a">a) P ∨ ~P</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q1b" name="q1" value="b">
+      <label for="q1b">b) P ∧ ~P</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q1c" name="q1" value="c">
+      <label for="q1c">c) P ∧ Q</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q1d" name="q1" value="d">
+      <label for="q1d">d)P ∨ Q</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: Kontingensi adalah pernyataan logika yang kadang benar dan kadang salah tergantung pada nilai proposisi. 
+    P ∧ Q adalah kontingensi karena bernilai benar hanya jika P dan Q keduanya benar.</p>
+  </div>
+  
+  <!-- Question 2 -->
+  <div class="question" data-correct="c">
+    <p>2. Pernyataan P → Q adalah kontingensi jika</p>
+    <div class="answer-container">
+      <input type="radio" id="q2a" name="q2" value="a">
+      <label for="q2a">a) P selalu benar</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q2b" name="q2" value="b">
+      <label for="q2b">b) Q selalu salah</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q2c" name="q2" value="c">
+      <label for="q2c">c) Nilai P dan Q tidak tetap</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q2d" name="q2" value="d">
+      <label for="q2d">d) P ∨ ~P</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: Pernyataan P → Q bisa menjadi kontingensi jika nilai P dan 
+    Q tidak selalu tetap, sehingga kadang pernyataan benar dan kadang salah.</p>
+  </div>
+  
+  <!-- Question 3 -->
+  <div class="question" data-correct="c">
+    <p>3. Jika P dan Q adalah proposisi, maka P ∨ Q adalah</p>
+    <div class="answer-container">
+      <input type="radio" id="q3a" name="q3" value="a">
+      <label for="q3a">a) Tautologi</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q3b" name="q3" value="b">
+      <label for="q3b">b) Kontradiksi</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q3c" name="q3" value="c">
+      <label for="q3c">c) Kontingensi</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q3d" name="q3" value="d">
+      <label for="q3d">d) Tidak dapat ditentukan</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: P ∨ Q adalah kontingensi karena bernilai benar jika salah satu 
+    P atau Q benar, tetapi bernilai salah jika keduanya salah.</p>
+  </div>
+  
+  <!-- Question 4 -->
+  <div class="question" data-correct="c">
+    <p>4. Manakah pernyataan berikut yang bukan kontingensi?</p>
+    <div class="answer-container">
+      <input type="radio" id="q4a" name="q4" value="a">
+      <label for="q4a">a) P ∨ ~Q</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q4b" name="q4" value="b">
+      <label for="q4b">b) P ∧ Q</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q4c" name="q4" value="c">
+      <label for="q4c">c) P ∨ ~P</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q4d" name="q4" value="d">
+      <label for="q4d">d) ~P ∨ Q</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: P ∨ ~P adalah tautologi karena selalu benar, jadi bukan kontingensi. Kontingensi adalah pernyataan yang nilainya bergantung pada kombinasi nilai kebenaran.</p>
+  </div>
+  
+  <!-- Question 5 -->
+  <div class="question" data-correct="c">
+    <p> 5. Doni berkata: <br>
+      "Jika saya belajar, maka saya akan mendapatkan nilai bagus." <br>
+      Namun, Doni terkadang tidak mendapatkan nilai bagus meskipun sudah belajar. Pernyataan ini adalah:</p>
+    <div class="answer-container">
+      <input type="radio" id="q5a" name="q5" value="a">
+      <label for="q5a">a) Tautologi</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q5b" name="q5" value="b">
+      <label for="q5b">b) Kontradiksi</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q5c" name="q5" value="c">
+      <label for="q5c">c) Kontingensi</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q5d" name="q5" value="d">
+      <label for="q5d">d) Tidak dapat ditentukan</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: Pernyataan Doni adalah kontingensi karena nilainya tergantung pada hasil nyata, yaitu nilai bagus tidak selalu mengikuti belajar.    </p>
+  </div>
+  
+  <!-- Question 6 -->
+  <div class="question" data-correct="c">
+    <p>6. Jika P ∧ Q adalah kontingensi, maka</p>
+    <div class="answer-container">
+      <input type="radio" id="q6a" name="q6" value="a">
+      <label for="q6a">a) P dan Q selalu benar</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q6b" name="q6" value="b">
+      <label for="q6b">b) P atau Q selalu salah</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q6c" name="q6" value="c">
+      <label for="q6c">c) Nilai P dan Q bergantung pada kombinasi tertentu</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q6d" name="q6" value="d">
+      <label for="q6d">d) P ∧ Q selalu salah</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: Kontingensi berarti nilai P ∧ Q bergantung pada kombinasi nilai 
+     P dan Q. Pernyataan bernilai benar hanya jika P dan Q keduanya benar.</p>
+  </div>
+  
+  <!-- Question 7 -->
+  <div class="question" data-correct="c">
+    <p>7. Rina berkata:<br>
+      "Kalau hari ini cerah, maka saya akan pergi jogging." <br>
+      Namun, ia terkadang tetap tidak jogging meskipun cuaca cerah. Pernyataan ini adalah</p>
+    <div class="answer-container">
+      <input type="radio" id="q7a" name="q7" value="a">
+      <label for="q7a">a) Selalu benar</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q7b" name="q7" value="b">
+      <label for="q7b">b) Selalu salah</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q7c" name="q7" value="c">
+      <label for="q7c">c) Kontingensi</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q7d" name="q7" value="d">
+      <label for="q7d">d) Tidak relevan</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: Pernyataan ini adalah kontingensi karena kebenarannya tidak selalu sama; terkadang benar dan terkadang salah.</p>
+  </div>
+  
+  <!-- Question 8 -->
+  <div class="question" data-correct="c">
+    <p>8. Pernyataan ~P ∨ Q adalah kontingensi karena</p>
+    <div class="answer-container">
+      <input type="radio" id="q8a" name="q8" value="a">
+      <label for="q8a">a) Selalu benar</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q8b" name="q8" value="b">
+      <label for="q8b">b) Selalu salah</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q8c" name="q8" value="c">
+      <label for="q8c">c) Kadang benar dan kadang salah</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q8d" name="q8" value="d">
+      <label for="q8d">d)  Tergantung pada P ∨ Q</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: Pernyataan ~P ∨ Q adalah kontingensi karena nilai kebenarannya bergantung pada nilai 
+    P dan Q. </p>
+  </div>
+  
+  <!-- Question 9 -->
+  <div class="question" data-correct="b">
+    <p>9. Jika P ∧ ~Q adalah kontingensi, maka</p>
+    <div class="answer-container">
+      <input type="radio" id="q9a" name="q9" value="a">
+      <label for="q9a">a) P selalu benar dan Q selalu salah</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q9b" name="q9" value="b">
+      <label for="q9b">b) P dan Q nilainya bergantung pada kombinasi tertentu</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q9c" name="q9" value="c">
+      <label for="q9c">c) P ∧ ~Q selalu salah</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q9d" name="q9" value="d">
+      <label for="q9d">d) P ∧ ~Q selalu benar</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: Kontingensi berarti nilai pernyataan P ∧ ~Q bergantung pada kombinasi nilai kebenaran P dan Q.</p>
+  </div>
+  
+  <!-- Question 10 -->
+  <div class="question" data-correct="c">
+    <p>10. Seorang pelajar berkata: <br>
+      "Jika aku belajar kelompok, maka aku akan lebih paham pelajarannya." <br>
+      Namun, terkadang ia tetap tidak paham meskipun belajar kelompok. Pernyataan ini adalah</p>
+    <div class="answer-container">
+      <input type="radio" id="q10a" name="q10" value="a">
+      <label for="q10a">a) Tautologi</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q10b" name="q10" value="b">
+      <label for="q10b">b) Kontradiksi</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q10c" name="q10" value="c">
+      <label for="q10c">c) Kontingensi</label>
+    </div>
+    <div class="answer-container">
+      <input type="radio" id="q10d" name="q10" value="d">
+      <label for="q10d">d) Tidak relevan</label>
+    </div>
+    <p class="explanation hidden">Penjelasan: Pernyataan ini adalah kontingensi karena kebenarannya tidak mutlak; tergantung pada situasi belajar kelompok, bisa jadi benar atau salah.</p>
+  </div>
+  <button type="button" onclick="submitQuiz()">Submit</button>
+</form>
+<p class="score hidden"></p>
+
+<script src="../js/quizkonjungsi.js"></script>
+</div>
+</section>  
+  
+</body>
+
+</html>
